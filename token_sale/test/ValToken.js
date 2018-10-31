@@ -12,6 +12,9 @@ contract('ValToken',function(accounts){
       return tokenInstance.symbol();
     }).then(function(symbol){
       assert.equal(symbol,'VT','has correct symbol');
+      return tokenInstance.standards();
+    }).then(function(standards){
+      assert.equal(standards,'ValToken v1.0');
     });
 
 

@@ -3,6 +3,7 @@ pragma solidity ^0.4.2;
 contract ValToken{
 string public name="ValToken";
 string public symbol="VT";
+string public standards="ValToken v1.0";
 //constructor
 //set total tokens
 //read total number of tokens
