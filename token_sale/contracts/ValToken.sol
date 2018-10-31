@@ -5,8 +5,8 @@ contract ValToken{
 //set total tokens
 //read total number of tokens
   uint256 public totalSupply;
-  function ValToken() public{
-  totalSupply=1000000;
+  function ValToken(uint256 _initialSupply) public{
+    totalSupply = _initialSupply;
 
   }
 

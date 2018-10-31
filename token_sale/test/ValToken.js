@@ -2,7 +2,7 @@ var ValToken=artifacts.require("./ValToken.sol");
 
 contract('ValToken',function(accounts){
 
- it('sets the tital supply on deployment',function(){
+ it('sets the total supply on deployment',function(){
 
   return ValToken.deployed().then(function(instance){
     tokenInstance=instance;

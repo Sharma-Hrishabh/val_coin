@@ -1,5 +1,5 @@
-var Migrations = artifacts.require("./Migrations.sol");
+var ValToken = artifacts.require("./ValToken.sol");
 
 module.exports = function(deployer) {
-  deployer.deploy(Migrations);
+  deployer.deploy(ValToken,1000000);
 };
